@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    height: 30rem;
+    margin: 0;
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url('./images/bg-intro-desktop.png');
+    font-family: 'Poppins', sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.texts, .boxes, .offer, .form{
+    box-sizing: border-box;
+}
+
+.texts, .boxes{
+    width: 28rem;
+    height: 30rem;
+    margin-top: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texts, .offer{
+    color: white;
+}
+
+.texts span{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.texts p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.boxes{
+    margin-left: 3rem;
+}
+
+.offer{
+    height: 3rem;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 0.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: -0.3rem 0.3rem  hsl(249, 10%, 26%) ;
+}
+
+#bold-text{
+    font-weight: 600;
+    padding-right: 0.2rem;
+}
+
