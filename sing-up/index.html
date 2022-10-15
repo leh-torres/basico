@@ -9,6 +9,7 @@
   <title>Frontend Mentor | Intro component with sign up form</title>
 
   <link rel="stylesheet" href="style.css">
+  <script src="./script.js"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
   </style>
@@ -26,22 +27,16 @@
       <span id="bold-text">Try it free 7 days </span><span> then $20/mo. thereafter</span>
     </div>
     <div class="form">
-      <input type="text" name="name" id="" placeholder="First Name ">
-      <input type="text" name="lastName" id="" placeholder="Last Name ">
-      <input type="email" name="email" id="" placeholder="Email Address">
-      <input type="password" name="password" id="" placeholder="Password">
-      <button>Claim your free trial </button>
+      <input type="text" class="inputs" placeholder="First Name " id="nome">
+      <input type="text" class="inputs" placeholder="Last Name " id="ultNome">
+      <input type="email" class="inputs" placeholder="Email Address" id="email">
+      <input type="password" class="inputs" placeholder="Password" id="senha">
+      <button class="btn" onclick="validaCampos()">CLAIM YOUR FREE TRIAL </button>
+      <span id="texto">By clicking the button, you are agreeing to our <span id="texto-ver">Terms and Services</span></span>
     </div>
   </div>
 
   <!---
-
-  
-
-   
-
-  By clicking the button, you are agreeing to our Terms and Services
-  
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
