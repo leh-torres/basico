@@ -78,7 +78,7 @@ body{
 .inputs{ 
     width: 21rem;
     padding: 1rem 1.3rem;
-    border: 0.1rem solid hsl(250, 3%, 39%);
+    border: 0.12rem solid hsl(250, 3%, 39%);
     border-radius: 0.4rem;
     margin-bottom: 0.6rem;
 }
@@ -113,5 +113,16 @@ body{
 #texto, #texto-ver{
     margin-top: 0.6rem;
     font-size: 0.6rem;  
+}
+.warnings{
+    font-size: small;
+    font-style: italic;
+    font-weight: 600;
+    color: hsl(0, 100%, 74%) ;
+    text-align: right;
+    
+    height: 20px;
+    margin-top: 0px;
+    display: none;
 }
 

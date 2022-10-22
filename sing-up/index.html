@@ -27,10 +27,14 @@
       <span id="bold-text">Try it free 7 days </span><span> then $20/mo. thereafter</span>
     </div>
     <div class="form">
-      <input type="text" class="inputs" placeholder="First Name " id="nome">
-      <input type="text" class="inputs" placeholder="Last Name " id="ultNome">
-      <input type="email" class="inputs" placeholder="Email Address" id="email">
-      <input type="password" class="inputs" placeholder="Password" id="senha">
+      <input type="text" class="inputs" required placeholder="First Name" id="nome">
+      <span class="warnings" aria-hidden="true">First name can not be empty</span>
+      <input type="text" class="inputs" required placeholder="Last Name" id="ultNome">
+      <span class="warnings" aria-hidden="true">Last name can not be empty</span>
+      <input type="email" class="inputs" required placeholder="Email Address" id="email">
+      <span class="warnings" aria-hidden="true">Email can not be empty</span>
+      <input type="password" class="inputs" required placeholder="Password" id="senha">
+      <span class="warnings" aria-hidden="true">Password can not be empty</span>
       <button class="btn" onclick="validaCampos()">CLAIM YOUR FREE TRIAL </button>
       <span id="texto">By clicking the button, you are agreeing to our <span id="texto-ver">Terms and Services</span></span>
     </div>
