@@ -4,5 +4,5 @@
 
 ## Bem-vindo(a)! 👋
 
-Projeto do site Frontend Mento, construído com Html e Css.
-Link para o projeto finalizado: https://leh-torres.github.io/basico/nft-preview-card-component-main/
+- Projeto do site Frontend Mento, construído com Html e Css.
+- Link para o projeto finalizado: https://leh-torres.github.io/basico/nft-preview-card-component-main/
