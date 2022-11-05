@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    height: 600px;
+}
+
+body, .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    box-sizing: border-box;
+    width: 300px;
+    height: 480px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    gap: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card img{
+    border-radius: 10px;
+}
+
+.textos{
+    padding-left: 22px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.textos span{
+    font-size: medium;
+    color:  hsl(0, 0%, 100%);
+}
+
+.textos p{
+    font-size: small;
+    color: hsl(215, 51%, 70%);
+}
+
+.datas{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 90px;
+}
+
+.ether, .time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.ether span{
+    font-size: 14px;
+    color: hsl(178, 100%, 50%);
+}
+
+.time span{
+    font-size: 12px;
+    color: hsl(215, 51%, 70%);
+}
+
+#line{
+    width: 250px;
+    height: 2px;
+    background-color: hsl(215, 32%, 27%);
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    width: 250px;
+}
+
+.foot img{
+    border: 0.4px solid white;
+}
+
+.foot span{
+    font-size: 12px;
+    font-weight: 500;
+    color: hsl(215, 51%, 70%);
+}
+
+.foot #name{
+    color: hsl(0, 0%, 100%);
+}
