@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1440px;
+    height: 735px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+
+.content{
+    width: 890px;
+    height: 500px;
+
+    border-radius: 15px;
+    box-shadow: -4px 15px 10px hsl(240, 54%, 59%);
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: white;
+}
+
+.imagens, .perguntas{
+    width: 50%;
+    height: 500px;
+}
+
+
+.imagens{
+    background-image: url('./images/bg-pattern-desktop.svg');
+    background-size: 800px 670px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#woman{
+    margin-top: 30px;
+    margin-left: -60px;
+    position: relative;
+}
+
+#box{
+    position: absolute;
+    margin-left: -510px;
+    margin-top: 160px;
+}
+
+.faq, .questions{
+    display: flex;
+    flex-direction: column;
+}
+
+.faq{
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+
+    padding: 45px 45px;
+
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.faq h1{
+    font-weight: 700;
+}
+
+.questions{
+    font-size: 12px;
+    font-weight: 400;
+    
+}
+
+.question{
+    height: 20px;
+    padding: 15px 3px;
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+.question .title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-size: 16px;
+}
+
+.question .title .button:hover{
+    cursor: pointer;
+}
+
+.question .answer{
+    opacity: 0;
+}
+
+.question.active{
+    height: 80px;
+    padding: 15px 3px;
+    border-bottom: 0px;
+    color:  hsl(238, 29%, 16%);
+}
+
+.question.active .title{
+    font-weight: 700;
+}
+
+.question .title:hover , .question.active .title:hover{
+    color: hsl(14, 88%, 65%);
+}
+
+.question.active .title .button{
+    transform: rotate(180deg);
+    transform: all 0.5s ease;
+}
+
+.question.active .answer{
+    opacity: 1;
+    font-size: 12px;
+    padding-top: 15px;
+    letter-spacing: 0.5px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+
